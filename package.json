@@ -1,0 +1,58 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"name": "@sepruko/tsconfig",
+	"version": "0.0.1",
+	"description": "TypeScript (tsconfig) configuration files.",
+	"keywords": [
+		"ecmascript",
+		"tsconfig",
+		"typescript"
+	],
+	"homepage": "https://github.com/sepruko/tsconfig#readme",
+	"bugs": "https://github.com/sepruko/tsconfig/issues",
+	"license": "CC0-1.0",
+	"author": "sepruko (https://github.com/sepruko)",
+	"contributors": [],
+	"files": [
+		"src/**/*.json"
+	],
+	"type": "module",
+	"exports": {
+		".": "./src/tsconfig.base.json",
+		"./base": "./src/tsconfig.base.json",
+		"./browser": "./src/tsconfig.browser.json",
+		"./node": "./src/tsconfig.node.json",
+		"./strict": "./src/tsconfig.strict.json",
+		"./worker": "./src/tsconfig.worker.json",
+		"./es2023": "./src/tsconfig.base.json",
+		"./es2023/base": "./src/tsconfig.base.json",
+		"./es2023/browser": "./src/tsconfig.browser.json",
+		"./es2023/node": "./src/tsconfig.node.json",
+		"./es2023/strict": "./src/tsconfig.strict.json",
+		"./es2023/worker": "./src/tsconfig.worker.json",
+		"./package.json": "./package.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sepruko/tsconfig.git"
+	},
+	"scripts": {},
+	"peerDependencies": {
+		"typescript": "~5.6.2"
+	},
+	"peerDependenciesMeta": {
+		"typescript": {
+			"optional": true
+		}
+	},
+	"engines": {
+		"pnpm": "^9.12.1"
+	},
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"onFail": "error"
+		}
+	},
+	"packageManager": "pnpm@9.12.1"
+}

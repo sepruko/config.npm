@@ -1,0 +1,62 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": [],
+	"buildOptions": {
+		"incremental": true
+	},
+	"compileOnSave": false,
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": "${configDir}/src/",
+		"composite": true,
+		"lib": [
+			"ES2022"
+		],
+		"declarationMap": true,
+		"module": "ES2022",
+		"moduleResolution": "Bundler",
+		"paths": {
+			"@/": [
+				"./index.ts",
+				"./index.tsx",
+				"./index.js",
+				"./index.jsx"
+			],
+			"@/*": [
+				"./*",
+				"./*/index.ts",
+				"./*/index.tsx",
+				"./*/index.js",
+				"./*/index.jsx"
+			]
+		},
+		"preserveConstEnums": true,
+		"resolvePackageJsonImports": false,
+		"skipLibCheck": true,
+		"stripInternal": true,
+		"target": "ES2022",
+		"types": [],
+		"verbatimModuleSyntax": true
+	},
+	"exclude": [
+		"*.spec.js",
+		"*.spec.cjs",
+		"*.spec.mjs",
+		"*.spec.jsx",
+		"*.test.js",
+		"*.test.cjs",
+		"*.test.mjs",
+		"*.test.jsx",
+		"*.spec.ts",
+		"*.spec.cts",
+		"*.spec.mts",
+		"*.spec.tsx",
+		"*.test.ts",
+		"*.test.cts",
+		"*.test.mts",
+		"*.test.tsx"
+	],
+	"include": [
+		"${configDir}/src/**/*"
+	]
+}
