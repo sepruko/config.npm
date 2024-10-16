@@ -1,1 +1,1 @@
-# `@sepruko/tsconfig`
+# `@sepruko/npm-shared-config`
