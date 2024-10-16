@@ -39,22 +39,22 @@
 		"verbatimModuleSyntax": true
 	},
 	"exclude": [
-		"*.spec.js",
-		"*.spec.cjs",
-		"*.spec.mjs",
-		"*.spec.jsx",
-		"*.test.js",
-		"*.test.cjs",
-		"*.test.mjs",
-		"*.test.jsx",
-		"*.spec.ts",
-		"*.spec.cts",
-		"*.spec.mts",
-		"*.spec.tsx",
-		"*.test.ts",
-		"*.test.cts",
-		"*.test.mts",
-		"*.test.tsx"
+		"${configDir}/**/*.spec.js",
+		"${configDir}/**/*.spec.cjs",
+		"${configDir}/**/*.spec.mjs",
+		"${configDir}/**/*.spec.jsx",
+		"${configDir}/**/*.test.js",
+		"${configDir}/**/*.test.cjs",
+		"${configDir}/**/*.test.mjs",
+		"${configDir}/**/*.test.jsx",
+		"${configDir}/**/*.spec.ts",
+		"${configDir}/**/*.spec.cts",
+		"${configDir}/**/*.spec.mts",
+		"${configDir}/**/*.spec.tsx",
+		"${configDir}/**/*.test.ts",
+		"${configDir}/**/*.test.cts",
+		"${configDir}/**/*.test.mts",
+		"${configDir}/**/*.test.tsx"
 	],
 	"include": [
 		"${configDir}/src/**/*"
