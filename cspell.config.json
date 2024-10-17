@@ -4,9 +4,23 @@
 		"./src/cspell/cspell.base.json"
 	],
 	"cache": {
+		"cacheLocation": "node_modules/.cache/cspell/cache.json",
 		"useCache": true
 	},
 	"dictionaries": [
 		"shared-config-contributors"
+	],
+	"reporters": [
+		"default",
+		[
+			"@cspell/cspell-json-reporter",
+			{
+				"outFile": "cspell.report.json"
+			}
+		]
+	],
+	"words": [
+		"JSR",
+		"jsr"
 	]
 }
