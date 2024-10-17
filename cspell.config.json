@@ -1,0 +1,12 @@
+{
+	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+	"import": [
+		"./src/cspell/cspell.base.json"
+	],
+	"cache": {
+		"useCache": true
+	},
+	"dictionaries": [
+		"shared-config-contributors"
+	]
+}

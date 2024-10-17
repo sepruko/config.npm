@@ -67,6 +67,10 @@
 		"url": "git+https://github.com/sepruko/npm-shared-config.git"
 	},
 	"scripts": {},
+	"devDependencies": {
+		"@biomejs/biome": "~1.9.3",
+		"cspell": "^8.15.3"
+	},
 	"peerDependencies": {
 		"@biomejs/biome": "~1.9.3",
 		"@types/node": "^20.16.12",
