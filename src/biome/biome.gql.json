@@ -1,0 +1,25 @@
+{
+	"$schema": "../../node_modules/@biomejs/biome/configuration_schema.json",
+	"graphql": {
+		"formatter": {
+			"enabled": true,
+			"bracketSpacing": true,
+			"indentStyle": "tab",
+			"indentWidth": 4,
+			"lineEnding": "lf",
+			"lineWidth": 80,
+			"quoteStyle": "double"
+		},
+		"linter": {
+			"enabled": true
+		}
+	},
+	"linter": {
+		"rules": {
+			"nursery": {
+				"noDuplicatedFields": "error",
+				"useDeprecatedReason": "error"
+			}
+		}
+	}
+}

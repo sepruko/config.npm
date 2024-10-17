@@ -1,0 +1,83 @@
+{
+	"$schema": "../../node_modules/@biomejs/biome/configuration_schema.json",
+	"css": {
+		"assists": {
+			"enabled": true
+		},
+		"formatter": {
+			"enabled": true,
+			"indentStyle": "tab",
+			"indentWidth": 4,
+			"lineEnding": "lf",
+			"lineWidth": 80,
+			"quoteStyle": "double"
+		},
+		"linter": {
+			"enabled": true
+		}
+	},
+	"linter": {
+		"rules": {
+			"a11y": {
+				"useGenericFontNames": "error"
+			},
+			"correctness": {
+				"noInvalidDirectionInLinearGradient": "error",
+				"noInvalidGridAreas": "error",
+				"noInvalidPositionAtImportRule": "error",
+				"noUnknownFunction": "error",
+				"noUnknownMediaFeatureName": "error",
+				"noUnknownProperty": "error",
+				"noUnknownUnit": "error",
+				"noUnmatchableAnbSelector": "error"
+			},
+			"nursery": {
+				"noDescendingSpecificity": "error",
+				"noDuplicateCustomProperties": "error",
+				"noMissingVarFunction": "error",
+				"noUnknownPseudoClass": "error",
+				"noUnknownPseudoElement": "error",
+				"noValueAtRule": "error"
+			},
+			"suspicious": {
+				"noDuplicateAtImportRules": "error",
+				"noDuplicateFontNames": "error",
+				"noDuplicateSelectorsKeyframeBlock": "error",
+				"noEmptyBlock": "error",
+				"noImportantInKeyframe": "error",
+				"noShorthandPropertyOverrides": "error"
+			}
+		}
+	},
+	"overrides": [
+		{
+			"include": [
+				"**/*.css"
+			],
+			"linter": {
+				"rules": {
+					"nursery": {
+						"noIrregularWhitespace": "error"
+					}
+				}
+			}
+		},
+		{
+			"include": [
+				"**/*.module.css"
+			],
+			"css": {
+				"parser": {
+					"cssModules": true
+				}
+			},
+			"linter": {
+				"rules": {
+					"nursery": {
+						"noValueAtRule": "off"
+					}
+				}
+			}
+		}
+	]
+}

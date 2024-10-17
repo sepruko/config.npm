@@ -4,9 +4,15 @@
 	"version": "0.2.0",
 	"description": "Shared configuration files for NPM tools.",
 	"keywords": [
+		"biome",
+		"biomejs",
 		"config",
 		"configuration",
+		"css",
 		"ecmascript",
+		"graphql",
+		"json",
+		"jsx",
 		"shared",
 		"tsconfig",
 		"typescript"
@@ -17,10 +23,19 @@
 	"author": "sepruko (https://github.com/sepruko)",
 	"contributors": [],
 	"files": [
-		"src/**/*.json"
+		"src/tsconfig/**/*.json",
+		"src/biome/**/*.json"
 	],
 	"type": "module",
 	"exports": {
+		"./biome": "./src/biome/biome.full.json",
+		"./biome/base": "./src/biome/biome.base.json",
+		"./biome/css": "./src/biome/biome.css.json",
+		"./biome/full": "./src/biome/biome.full.json",
+		"./biome/git": "./src/biome/biome.git.json",
+		"./biome/gql": "./src/biome/biome.gql.json",
+		"./biome/js": "./src/biome/biome.js.json",
+		"./biome/json": "./src/biome/biome.json.json",
 		"./tsconfig": "./src/tsconfig/tsconfig.base.json",
 		"./tsconfig/base": "./src/tsconfig/tsconfig.base.json",
 		"./tsconfig/browser": "./src/tsconfig/tsconfig.browser.json",
@@ -41,9 +56,13 @@
 	},
 	"scripts": {},
 	"peerDependencies": {
+		"@biomejs/biome": "~1.9.3",
 		"typescript": "~5.6.2"
 	},
 	"peerDependenciesMeta": {
+		"@biomejs/biome": {
+			"optional": true
+		},
 		"typescript": {
 			"optional": true
 		}

@@ -1,0 +1,48 @@
+{
+	"$schema": "../../node_modules/@biomejs/biome/configuration_schema.json",
+	"json": {
+		"assists": {
+			"enabled": true
+		},
+		"formatter": {
+			"enabled": true,
+			"indentStyle": "tab",
+			"indentWidth": 4,
+			"lineEnding": "lf",
+			"lineWidth": 1,
+			"trailingCommas": "none"
+		},
+		"linter": {
+			"enabled": true
+		},
+		"parser": {
+			"allowTrailingCommas": true
+		}
+	},
+	"overrides": [
+		{
+			"include": [
+				"**/*.json",
+				"**/*.jsonc"
+			],
+			"linter": {
+				"rules": {
+					"suspicious": {
+						"noDuplicateObjectKeys": "error"
+					}
+				}
+			}
+		},
+		{
+			"include": [
+				"**/.vscode/**/*.json",
+				"**/*.jsonc"
+			],
+			"json": {
+				"parser": {
+					"allowComments": true
+				}
+			}
+		}
+	]
+}

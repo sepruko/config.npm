@@ -1,0 +1,11 @@
+{
+	"$schema": "../../node_modules/@biomejs/biome/configuration_schema.json",
+	"extends": [
+		"./biome.base.json",
+		"./biome.css.json",
+		"./biome.git.json",
+		"./biome.gql.json",
+		"./biome.js.json",
+		"./biome.json.json"
+	]
+}

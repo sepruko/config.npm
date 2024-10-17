@@ -1,0 +1,81 @@
+{
+	"$schema": "../../node_modules/@biomejs/biome/configuration_schema.json",
+	"assists": {
+		"enabled": true
+	},
+	"css": {
+		"assists": {
+			"enabled": false
+		},
+		"formatter": {
+			"enabled": false
+		},
+		"linter": {
+			"enabled": false
+		}
+	},
+	"files": {
+		"ignore": [
+			"**/__*__/**/*",
+			"**/build/**/*",
+			"**/dist/**/*",
+			"**/node_modules/**/*",
+			"**/out/**/*",
+			"**/*.snap.*"
+		],
+		"ignoreUnknown": true
+	},
+	"formatter": {
+		"enabled": true,
+		"attributePosition": "auto",
+		"bracketSpacing": true,
+		"formatWithErrors": true,
+		"indentStyle": "tab",
+		"indentWidth": 4,
+		"lineEnding": "lf",
+		"lineWidth": 100,
+		"useEditorconfig": true
+	},
+	"graphql": {
+		"formatter": {
+			"enabled": false
+		},
+		"linter": {
+			"enabled": false
+		}
+	},
+	"javascript": {
+		"assists": {
+			"enabled": false
+		},
+		"formatter": {
+			"enabled": false
+		},
+		"linter": {
+			"enabled": false
+		}
+	},
+	"json": {
+		"assists": {
+			"enabled": false
+		},
+		"formatter": {
+			"enabled": false
+		},
+		"linter": {
+			"enabled": false
+		}
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": false
+		}
+	},
+	"organizeImports": {
+		"enabled": false
+	},
+	"vcs": {
+		"enabled": false
+	}
+}
