@@ -66,7 +66,12 @@
 		"type": "git",
 		"url": "git+https://github.com/sepruko/npm-shared-config.git"
 	},
-	"scripts": {},
+	"scripts": {
+		"format": "biome format --config-path biome.json .",
+		"lint": "biome lint --config-path biome.json . && cspell lint -c cspell.config.json .",
+		"lint:fix": "biome lint --config-path biome.json --write .",
+		"lint:fix:all": "biome lint --config-path biome.json --write --unsafe ."
+	},
 	"devDependencies": {
 		"@biomejs/biome": "~1.9.3",
 		"cspell": "^8.15.3"
