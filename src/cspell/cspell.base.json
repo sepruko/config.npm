@@ -20,6 +20,7 @@
 		"filetypes",
 		"fonts",
 		"fullstack",
+		"git-scm-git",
 		"git",
 		"google",
 		"html-symbol-entities",
@@ -47,6 +48,44 @@
 	],
 	"dictionaryDefinitions": [
 		{
+			"name": "biomejs-biome",
+			"description": "Words, terms & phrases used by the Biome tooling.",
+			"useCompounds": true,
+			"words": [
+				"AnB",
+				"Anb",
+				"APPROXIMATIVE",
+				"Approximative",
+				"approximative",
+				"BiomeJS",
+				"biomejs",
+				"GQL",
+				"gql",
+				"INSTANTIATOR",
+				"Instantiator",
+				"instantiator",
+				"MISREFACTORED",
+				"Misrefactored",
+				"misrefactored",
+				"SHOUTY",
+				"Shouty",
+				"shouty",
+				"VCS",
+				"vcs"
+			]
+		},
+		{
+			"name": "git-scm-git",
+			"description": "Words, terms & phrases used by Git.",
+			"useCompounds": true,
+			"words": [
+				"EOL",
+				"eol",
+				"SCM",
+				"scm"
+			]
+		},
+		{
 			"name": "shared-config-contributors",
 			"description": "Names of contributors.",
 			"useCompounds": true,
@@ -54,19 +93,6 @@
 				"Nat",
 				"Sepruko",
 				"sepruko"
-			]
-		},
-		{
-			"name": "biomejs-biome",
-			"description": "Words, terms & phrases used by the Biome tooling.",
-			"useCompounds": true,
-			"words": [
-				"BiomeJS",
-				"biomejs",
-				"GQL",
-				"gql",
-				"VCS",
-				"vcs"
 			]
 		}
 	],
@@ -80,10 +106,16 @@
 	"gitignoreRoot": ".",
 	"ignorePaths": [
 		"**/__*__/**/*",
+		"**/.git",
+		"**/.pnp.c?js",
 		"**/build/**/*",
+		"**/cspell.report.json",
 		"**/dist/**/*",
 		"**/node_modules/**/*",
-		"**/out/**/*"
+		"**/out/**/*",
+		"**/package-lock.json",
+		"**/pnpm-lock*.yaml",
+		"**/yarn.lock"
 	],
 	"globRoot": ".",
 	"language": "en",
@@ -92,5 +124,12 @@
 	"minWordLength": 2,
 	"readonly": true,
 	"useGitignore": true,
-	"validateDirectives": true
+	"validateDirectives": true,
+	"words": [
+		"MTS",
+		"mts",
+		"PNP",
+		"PnP",
+		"pnp"
+	]
 }
