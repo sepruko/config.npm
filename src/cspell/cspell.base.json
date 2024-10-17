@@ -1,0 +1,96 @@
+{
+	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/refs/tags/v8.15.3/cspell.schema.json",
+	"name": "@sepruko/shared-config",
+	"version": "0.2",
+	"description": "Shared CSpell configuration options.",
+	"cache": {
+		"cacheFormat": "universal",
+		"cacheLocation": "node_modules/.cache/cspell/cspell.cache.json",
+		"cacheStrategy": "metadata"
+	},
+	"allowCompoundWords": true,
+	"caseSensitive": true,
+	"dictionaries": [
+		"bash",
+		"biomejs-biome",
+		"companies",
+		"css",
+		"docker",
+		"en-common-misspellings",
+		"filetypes",
+		"fonts",
+		"fullstack",
+		"git",
+		"google",
+		"html-symbol-entities",
+		"html",
+		"k8s",
+		"latex",
+		"lorem-ipsum",
+		"markdown",
+		"mnemonics",
+		"node",
+		"npm",
+		"peoples-names",
+		"powershell",
+		"public-licenses",
+		"rust",
+		"shell",
+		"software-terms",
+		"sql",
+		"svelte",
+		"terraform",
+		"typescript",
+		"vim",
+		"vue",
+		"win32"
+	],
+	"dictionaryDefinitions": [
+		{
+			"name": "shared-config-contributors",
+			"description": "Names of contributors.",
+			"useCompounds": true,
+			"words": [
+				"Nat",
+				"Sepruko",
+				"sepruko"
+			]
+		},
+		{
+			"name": "biomejs-biome",
+			"description": "Words, terms & phrases used by the Biome tooling.",
+			"useCompounds": true,
+			"words": [
+				"BiomeJS",
+				"biomejs",
+				"GQL",
+				"gql",
+				"VCS",
+				"vcs"
+			]
+		}
+	],
+	"enabledFileTypes": {
+		"*": true
+	},
+	"enableGlobDot": true,
+	"features": {
+		"weighted-suggestions": true
+	},
+	"gitignoreRoot": ".",
+	"ignorePaths": [
+		"**/__*__/**/*",
+		"**/build/**/*",
+		"**/dist/**/*",
+		"**/node_modules/**/*",
+		"**/out/**/*"
+	],
+	"globRoot": ".",
+	"language": "en",
+	"maxDuplicateProblems": 10000,
+	"maxNumberOfProblems": 10000,
+	"minWordLength": 2,
+	"readonly": true,
+	"useGitignore": true,
+	"validateDirectives": true
+}

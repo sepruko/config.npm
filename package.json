@@ -23,8 +23,9 @@
 	"author": "sepruko (https://github.com/sepruko)",
 	"contributors": [],
 	"files": [
-		"src/tsconfig/**/*.json",
-		"src/biome/**/*.json"
+		"src/biome/**/*.json",
+		"src/cspell/**/*.json",
+		"src/tsconfig/**/*.json"
 	],
 	"type": "module",
 	"exports": {
@@ -36,6 +37,7 @@
 		"./biome/gql": "./src/biome/biome.gql.json",
 		"./biome/js": "./src/biome/biome.js.json",
 		"./biome/json": "./src/biome/biome.json.json",
+		"./cspell": "./src/cspell/cspell.base.json",
 		"./tsconfig": "./src/tsconfig/tsconfig.base.json",
 		"./tsconfig/base": "./src/tsconfig/tsconfig.base.json",
 		"./tsconfig/browser": "./src/tsconfig/tsconfig.browser.json",
@@ -68,6 +70,7 @@
 	"peerDependencies": {
 		"@biomejs/biome": "~1.9.3",
 		"@types/node": "^20.16.12",
+		"cspell": "^8.15.3",
 		"typescript": "~5.6.2",
 		"vitest": "^2.1.3"
 	},
@@ -76,6 +79,9 @@
 			"optional": true
 		},
 		"@types/node": {
+			"optional": true
+		},
+		"cspell": {
 			"optional": true
 		},
 		"typescript": {
