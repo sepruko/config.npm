@@ -255,7 +255,7 @@
 						"accessibility": "explicit"
 					}
 				},
-				"useExplicitFunctionReturnType": "error",
+				"useExplicitType": "error",
 				"useImportRestrictions": "error",
 				"useSortedClasses": {
 					"fix": "safe",
@@ -469,11 +469,21 @@
 							},
 							{
 								"selector": {
+									"kind": "indexParameter",
+									"modifiers": [
+										"readonly"
+									]
+								},
+								"formats": [
+									"CONSTANT_CASE"
+								]
+							},
+							{
+								"selector": {
 									"kind": "indexParameter"
 								},
 								"formats": [
-									"camelCase",
-									"CONSTANT_CASE"
+									"camelCase"
 								]
 							},
 							{
