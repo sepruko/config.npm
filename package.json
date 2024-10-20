@@ -46,7 +46,7 @@
 		"./tsconfig/node/test": "./src/tsconfig/tsconfig.node-test.json",
 		"./tsconfig/strict": "./src/tsconfig/tsconfig.strict.json",
 		"./tsconfig/test": "./src/tsconfig/tsconfig.node-test.json",
-		"./tsconfig/test/browser": "./src/tsconfig/tsconfig.node-browser.json",
+		"./tsconfig/test/browser": "./src/tsconfig/tsconfig.browser-test.json",
 		"./tsconfig/test/node": "./src/tsconfig/tsconfig.node-test.json",
 		"./tsconfig/worker": "./src/tsconfig/tsconfig.worker.json",
 		"./tsconfig/es2023": "./src/tsconfig/es2023/tsconfig.base.json",
@@ -57,7 +57,7 @@
 		"./tsconfig/es2023/node/test": "./src/tsconfig/es2023/tsconfig.node-test.json",
 		"./tsconfig/es2023/strict": "./src/tsconfig/es2023/tsconfig.strict.json",
 		"./tsconfig/es2023/test": "./src/tsconfig/es2023/tsconfig.node-test.json",
-		"./tsconfig/es2023/test/browser": "./src/tsconfig/es2023/tsconfig.node-browser.json",
+		"./tsconfig/es2023/test/browser": "./src/tsconfig/es2023/tsconfig.browser-test.json",
 		"./tsconfig/es2023/test/node": "./src/tsconfig/es2023/tsconfig.node-test.json",
 		"./tsconfig/es2023/worker": "./src/tsconfig/es2023/tsconfig.worker.json",
 		"./package.json": "./package.json"
