@@ -459,6 +459,16 @@
 							},
 							{
 								"selector": {
+									"kind": "function",
+									"scope": "global"
+								},
+								"formats": [
+									"camelCase",
+									"PascalCase"
+								]
+							},
+							{
+								"selector": {
 									"kind": "importAlias"
 								},
 								"formats": [
