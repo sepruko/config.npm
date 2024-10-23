@@ -432,9 +432,20 @@
 							},
 							{
 								"selector": {
+									"kind": "const",
+									"scope": "global"
+								},
+								"formats": [
+									"CONSTANT_CASE"
+								],
+								"match": "_?(.+)"
+							},
+							{
+								"selector": {
 									"kind": "const"
 								},
 								"formats": [
+									"camelCase",
 									"CONSTANT_CASE"
 								],
 								"match": "_?(.+)"
