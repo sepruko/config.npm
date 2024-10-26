@@ -480,6 +480,15 @@
 							},
 							{
 								"selector": {
+									"kind": "functionParameter"
+								},
+								"formats": [
+									"camelCase"
+								],
+								"match": "_*((?<=_+).*|.+)"
+							},
+							{
+								"selector": {
 									"kind": "importAlias"
 								},
 								"formats": [
