@@ -485,7 +485,7 @@
 								"formats": [
 									"camelCase"
 								],
-								"match": "_*((?<=_+).*|.+)"
+								"match": "_+(.*)|_*(.+)"
 							},
 							{
 								"selector": {
