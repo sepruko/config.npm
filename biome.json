@@ -2,6 +2,7 @@
 	"$schema": "node_modules/@biomejs/biome/configuration_schema.json",
 	"extends": [
 		"src/biome/biome.base.json",
+		"src/biome/biome.js.json",
 		"src/biome/biome.json.json"
 	]
 }
