@@ -1,26 +1,42 @@
 {
 	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
 	"import": [
-		"./src/cspell/cspell.base.json"
+		"./config/cspell/base.json"
 	],
 	"cache": {
 		"cacheLocation": "node_modules/.cache/cspell/cache.json",
 		"useCache": true
 	},
 	"dictionaries": [
-		"shared-config-contributors"
+		"config-contributors",
+		"config-dependencies"
+	],
+	"dictionaryDefinitions": [
+		{
+			"name": "config-dependencies",
+			"description": "Words, terms, names & phrases used by dependencies of the @sepruko/config project.",
+			"useCompounds": true,
+			"words": [
+				"jsr"
+			]
+		},
+		{
+			"name": "config-contributors",
+			"description": "The names of contributors to the @sepruko/config project.",
+			"useCompounds": true,
+			"words": [
+				"nat",
+				"sepruko"
+			]
+		}
 	],
 	"reporters": [
 		"default",
 		[
 			"@cspell/cspell-json-reporter",
 			{
-				"outFile": "cspell.report.json"
+				"outFile": "node_modules/.cache/cspell/report.json"
 			}
 		]
-	],
-	"words": [
-		"JSR",
-		"jsr"
 	]
 }
