@@ -44,11 +44,13 @@
 	"scripts": {
 		"check": "biome check . && cspell lint -u --words-only . && prettier -c .",
 		"check:fix": "biome check --write . && prettier -w .",
-		"format": "biome format --write . && prettier -w ."
+		"format": "biome format --write . && prettier -w .",
+		"prepare": "husky"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "~1.9.4",
 		"cspell": "^8.16.0",
+		"husky": "~9.1.6",
 		"prettier": "^3.3.3"
 	},
 	"peerDependencies": {

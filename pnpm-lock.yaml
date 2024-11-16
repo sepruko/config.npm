@@ -21,8 +21,11 @@ importers:
       cspell:
         specifier: ^8.16.0
         version: 8.16.0
+      husky:
+        specifier: ~9.1.6
+        version: 9.1.6
       prettier:
-        specifier: ~3.3.3
+        specifier: ^3.3.3
         version: 3.3.3
 
 packages:
@@ -427,6 +430,11 @@ packages:
   has-own-prop@2.0.0:
     resolution: {integrity: sha512-Pq0h+hvsVm6dDEa8x82GnLSYHOzNDt7f0ddFa3FqcQlgzEiptPqL+XrOJNavjOzSYiYWIrgeVYYgGlLmnxwilQ==, tarball: https://registry.npmjs.org/has-own-prop/-/has-own-prop-2.0.0.tgz}
     engines: {node: '>=8'}
+
+  husky@9.1.6:
+    resolution: {integrity: sha512-sqbjZKK7kf44hfdE94EoX8MZNk0n7HeW37O4YrVGCF4wzgQjp+akPAkfUK5LZ6KuR/6sqeAVuXHji+RzQgOn5A==, tarball: https://registry.npmjs.org/husky/-/husky-9.1.6.tgz}
+    engines: {node: '>=18'}
+    hasBin: true
 
   import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==, tarball: https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.0.tgz}
@@ -922,6 +930,8 @@ snapshots:
       ini: 4.1.1
 
   has-own-prop@2.0.0: {}
+
+  husky@9.1.6: {}
 
   import-fresh@3.3.0:
     dependencies:
