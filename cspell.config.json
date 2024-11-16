@@ -17,6 +17,8 @@
 			"description": "Words, terms, names & phrases used by dependencies of the @sepruko/config project.",
 			"useCompounds": true,
 			"words": [
+				"ansi",
+				"Anson",
 				"jsr"
 			]
 		},
