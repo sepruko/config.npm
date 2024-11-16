@@ -84,16 +84,6 @@
 				"SCM",
 				"scm"
 			]
-		},
-		{
-			"name": "shared-config-contributors",
-			"description": "Names of contributors.",
-			"useCompounds": true,
-			"words": [
-				"Nat",
-				"Sepruko",
-				"sepruko"
-			]
 		}
 	],
 	"enabledFileTypes": {
