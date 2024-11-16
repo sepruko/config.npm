@@ -89,7 +89,6 @@
 			"onFail": "error"
 		}
 	},
-	"private": true,
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"@biomejs/biome"
