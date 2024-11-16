@@ -42,13 +42,14 @@
 	},
 	"repository": "github:sepruko/config.npm",
 	"scripts": {
-		"check": "biome check . && cspell lint -u --words-only .",
-		"check:fix": "biome check --write .",
-		"format": "biome format --write ."
+		"check": "biome check . && cspell lint -u --words-only . && prettier -c .",
+		"check:fix": "biome check --write . && prettier -w .",
+		"format": "biome format --write . && prettier -w ."
 	},
 	"devDependencies": {
 		"@biomejs/biome": "~1.9.4",
-		"cspell": "^8.16.0"
+		"cspell": "^8.16.0",
+		"prettier": "^3.3.3"
 	},
 	"peerDependencies": {
 		"@biomejs/biome": "~1.9.4",
