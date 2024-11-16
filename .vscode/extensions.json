@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"biomejs.biome",
+		"EditorConfig.EditorConfig",
+		"esbenp.prettier-vscode",
+		"streetsidesoftware.code-spell-checker"
+	],
+	"unwantedRecommendations": [
+		"DavidAnson.vscode-markdownlint",
+		"GitHub.copilot"
+	]
+}
