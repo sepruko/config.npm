@@ -20,9 +20,6 @@
 		"CODEOWNERS": "ignore",
 		"cspell.config.json": "jsonc"
 	},
-	"files.exclude": {
-		"**/.husky/_": true
-	},
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
 	"task.autoDetect": "off"
