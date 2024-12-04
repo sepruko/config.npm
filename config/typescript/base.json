@@ -35,6 +35,7 @@
 		},
 		"preserveConstEnums": true,
 		"resolvePackageJsonImports": false,
+		"rootDir": "${configDir}/src/",
 		"skipLibCheck": true,
 		"stripInternal": true,
 		"target": "ES2022",
